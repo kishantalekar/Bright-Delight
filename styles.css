@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Verdana, sans-serif;
+    /* background-image: url('Images/background1.jpg'); */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.img1 {
+    height: 13rem;
+}
+
+.slider {
+    /* background-image: url('Images/background1.jpg');
+   
+    background-color: black;
+
+     background-repeat:no-repeat ;
+     background-size: 100% 300px */
+    background-color: black;
+    background-image: url(images/background4.jpeg);
+
+}
+
+.slider-text {
+    font-family: cursive;
+}
+
+.centerImage {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* font-size: large; */
+
+}
+
+hr {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+
+.raise:hover,
+.raise:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
+
+/* map   */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+
+iframe {
+    height: 20vh;
+    width: 50vw;
+    margin-left: 14%;
+    box-sizing: border-box;
+}
+
+
+
+.about {
+    cursor: pointer;
+    /* background-color: #6B062D; */
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.about h1 {
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    opacity: .8;
+}
+
+.about span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: auto;
+    border-radius: 50%;
+    font-size: 40px;
+    color: black;
+    opacity: 0.7;
+    /* background-color: #4C0822; */
+    /* border: 2px solid #4C0822; */
+
+    webkit-transition: all .5s ease;
+    moz-transition: all .5s ease;
+    os-transition: all .5s ease;
+    transition: all .5s ease;
+
+}
+
+.about-item:hover span {
+    opacity: 1;
+    border: 2px solid black;
+    font-size: 42px;
+    -webkit-transform: scale(1.1, 1.1) rotate(360deg);
+    -moz-transform: scale(1.1, 1.1) rotate(360deg);
+    -o-transform: scale(1.1, 1.1) rotate(360deg);
+    transform: scale(1.1, 1.1) rotate(360deg);
+}
+
+.about-item:hover h2 {
+    opacity: 1;
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+
+.about .lead {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+#image-contact {
+    /* background-image: url(images/get-in-touch.jpg); */
+    /* background-image: url(images/contact-background1.jpeg); */
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color:black; */
+    /* color: white; */
+}
+
+
+
+/* products */
+
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .1875rem;
+}
+
+.card-img-actions {
+    position: relative;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.card-img {
+
+    width: 350px;
+}
+
+.star {
+    color: red;
+}
+
+.bg-cart {
+    background-color: orange;
+    color: #fff;
+}
+
+.bg-cart:hover {
+    /* color: black; */
+    /* background-color: rgb(236, 175, 21); */
+    /* color: #fff; */
+    background-color: orange;
+    color: #fff;
+    /* padding: 0.3rem; */
+}
+
+.bg-buy {
+    background-color: green;
+    color: #fff;
+    padding-right: 29px;
+}
+
+.bg-buy:hover {
+
+    color: #fff;
+}
+
+a {
+
+    text-decoration: none !important;
+}
+
+/* product start  */
+
+.carousel-nav-icon {
+    height: 48px;
+    width: 48px;
+}
+
+.carousel-item .col,
+.col-sm,
+.col-md {
+    margin: 8px;
+    /* height: 300px; */
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+
+
+
+/* product start  */
+
+/* styling  */
+
+/* .style-the-text> :last-child {
+    transform: rotatex(180deg) translatey(15px);
+    -webkit-mask-image: linear-gradient(transparent 40%, white 90%);
+    mask-image: linear-gradient(transparent 50%, white 90%);
+    opacity: 0.7;
+} */
